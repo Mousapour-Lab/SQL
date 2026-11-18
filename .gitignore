@@ -1,0 +1,13 @@
+# Editor and OS files
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Oracle tool output
+*.log
+*.spool
+*.lis
+*.dmp
+*.trc
