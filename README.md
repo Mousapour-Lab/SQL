@@ -12,7 +12,7 @@ There are **no answers** here on purpose. Write your own queries in the `solutio
 | `departments` | Factory departments and their location |
 | `employees` | Staff, their job title, salary and department |
 | `equipment` | Machines and vehicles, their status and department |
-| `maintenance_requests` | Repair requests: one employee reports one equipment |
+| `maintenance_requests` | Repair requests: one employee reports one piece of equipment |
 
 How they relate:
 
@@ -21,7 +21,7 @@ How they relate:
 - One employee can create many maintenance requests (`maintenance_requests.employee_id` → `employees.employee_id`).
 - One piece of equipment can have many maintenance requests (`maintenance_requests.equipment_id` → `equipment.equipment_id`).
 
-The scripts also use Oracle-specific syntax: identity columns, `NVL`, `SYSDATE`, `DATE` literals and `FETCH FIRST`.
+The tables use Oracle identity columns, and the data uses `DATE` literals. The exercises practice other Oracle syntax such as `NVL`, `SYSDATE` and `FETCH FIRST`.
 
 ## How to run the scripts
 
