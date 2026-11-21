@@ -1,0 +1,15 @@
+# SQL*Plus / SQLcl output files
+*.log
+*.lis
+*.spool
+
+# Oracle dumps and traces
+*.dmp
+*.trc
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
